@@ -1,0 +1,54 @@
+body{
+    background-color: #b0d7c4;
+}
+.container{
+    /* border: 2px solid red; */
+    margin-left: 20px;
+}
+.clock_border{
+    width: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    list-style-type: none;
+    padding: 2px 10px;
+}
+.clock_border li{
+    /* border: 2px solid blue; */
+    padding: 10px 10px;
+    margin: 10px -10px;
+    height: 120px;
+}
+.clock_border li p{
+    font-size: 130px;
+    position: relative;
+    top: -160px;
+}
+#time_h ,#time_m{
+    font-size: 100px;
+}
+.eve{
+    position: relative;
+    top: 64px;
+    left: 3px;
+    font-size: 30px;
+}
+/*---------------------------------- */
+.clock_bottom{
+    /* border: 2px solid red; */
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    top: -50px;
+    left: 40px;
+    
+}
+.clock_bottom li{
+    /* border: 2px solid blueviolet; */
+    margin: 0px 10px;
+    padding: 0px 0px;
+    font-size: 23px;
+}
+footer{
+    font-size: large;
+    color: rgb(56, 107, 83);
+}
